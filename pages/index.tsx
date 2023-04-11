@@ -4,6 +4,7 @@ import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import Menu from "../components/Menu";
 import Button from "../components/Button";
+import { LinkIcon, TrashIcon } from "@heroicons/react/24/solid";
 
 const Home: NextPage = () => {
   return (
@@ -56,7 +57,16 @@ const Home: NextPage = () => {
               <td className="p-5 text-left">bdkkss</td>
               <td className="p-5 text-left">20 oc 2022</td>
               <td className="p-5 text-left">20 oc 2022</td>
-              <td className="p-5 text-left"></td>
+              <td className="p-5 text-left">
+                <div className="">
+                  <a href="#">
+                    <LinkIcon className="w-8 h-8 p-2 hover:bg-zinc-100" />
+                  </a>
+                  <a href="#">
+                    <TrashIcon className="w-8 h-8 p-2 hover:bg-zinc-100" />
+                  </a>
+                </div>
+              </td>
             </tr>
           </tbody>
         </table>
