@@ -32,6 +32,36 @@ const Home: NextPage = () => {
         </div>
       </div>
       {/* </Header> */}
+
+      {/* <Table> */}
+      <div>
+        <p className="py-5 text-lg font-bold">Vote yang saya buat</p>
+        <table className="table-auto w-full border-zinc-100">
+          <thead>
+            <tr className="border-b border-zinc-100">
+              <th className="p-5 text-left">No</th>
+              <th className="p-5 text-left">Judul</th>
+              <th className="p-5 text-left">Kandidat</th>
+              <th className="p-5 text-left">Kode</th>
+              <th className="p-5 text-left">Mulai</th>
+              <th className="p-5 text-left">Selesai</th>
+              <th className="p-5 text-left"></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td className="p-5 text-left">1</td>
+              <td className="p-5 text-left">Judul Voting</td>
+              <td className="p-5 text-left">Budi VS Anto</td>
+              <td className="p-5 text-left">bdkkss</td>
+              <td className="p-5 text-left">20 oc 2022</td>
+              <td className="p-5 text-left">20 oc 2022</td>
+              <td className="p-5 text-left"></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      {/* </Table> */}
     </div>
   );
 };
